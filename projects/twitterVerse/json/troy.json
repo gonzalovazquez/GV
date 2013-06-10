@@ -1,0 +1,13 @@
+{"nodes":[
+{"city_name":"Amsterdam","group":1},
+{"city_name":"Brazil","group":2},
+{"city_name":"Ireland","group":2},
+{"city_name":"Mexico","group":3},
+{"city_name":"#dame","group":3}
+]
+,
+"links":
+[
+{"source":2,"target":4,"value":3}
+]}
+ 

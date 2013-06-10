@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>jQuery Mobile Tutorial on Codeforest.net</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />   
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+    <script src="js/validation.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body> 
+ 
+<div data-role="page" id="home" data-theme="c">
+ 
+    <div data-role="header" data-theme="c">
+        <h1>Filmy</h1>
+    </div><!-- /header -->
+ 
+    <div data-role="content">
+        <h2>Personal Movie Database</h2>
+        <div id="mainPic">
+            <img src="img/filmy.png" alt="Filmy Logo"/>
+        </div>
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#search">Search Films</a></li>
+            <li><a href="#add">Add Films</a></li>
+            <li><a href="php/showFilms.php">Show All Films</a></li>
+        </ul>
+    </div><!-- /content -->
+ 
+    <div class='footer-wrapper'>
+        <div data-role='footer' data-theme="c">
+            <p>Gonzalo Vazquez &copy</p>
+        </div>
+    </div>
+        
+    </div><!-- /header -->
+</div><!-- /page -->
+
+
+<!-- Start of second page: #search -->
+    <div data-role="page" id="search" data-theme="c">
+
+    <div data-role="header" data-theme="c">
+        <h1>Filmy</h1>
+        <a href="#home" data-direction="reverse" data-theme="c" data-icon="back" class="ui-btn-right">Back</a>
+    </div><!-- /header -->
+
+    <div data-role="content" data-theme="c">
+    <form action="php/searchFilms.php" method="POST" name="myForm">
+        <h2>Search Movie</h2>
+        <label class="radio">
+          <input type="radio" name="optRadios" id="opt1" value="title" checked>
+          Title
+          </label>
+        <label class="radio">
+          <input type="radio" name="optRadios" id="opt2" value="genre">
+          Genre
+        </label>
+        <label class="radio">
+          <input type="radio" name="optRadios" id="opt3" value="year">
+          Year
+        </label>
+        <input type="text" class="input-medium" name="searchFilm" placeholder="Type here..."><br>
+        <button type="submit" onclick="return validateForm()">Search</button>
+      </form>
+
+    </div><!-- /content -->
+
+    <div class='footer-wrapper'>
+        <div data-role='footer' data-theme="c">
+            <p>Gonzalo Vazquez &copy</p>
+        </div>
+    </div>
+</div><!-- /page two -->
+
+<!-- Start of third page: #add -->
+    <div data-role="page" id="add" data-theme="c">
+
+    <div data-role="header" data-theme="c">
+        <h1>Filmy</h1>
+        <a href="#home" data-direction="reverse" data-theme="c" data-icon="back" class="ui-btn-right">Back</a>
+    </div><!-- /header -->
+
+    <div data-role="content" data-theme="c">
+        <form name="addForm" action="php/addRecord.php" method="post">
+                <label for="title">Title:</label>
+                <input type="text" name="title"/>
+                <label for="genre">Genre:</label>
+                <input type="text" name="genre"/>
+                <label for="year">Year:</label>
+                <input type="text" name="year"/>
+                <label for="runtime">Runtime:</label>
+                <input type="text" name="runtime"/>
+                <label for="director">Director:</label>
+                <input type="text" name="director"/>
+                <label for="poster">Poster:</label>
+                <input type="text" name="poster" placeholder="Paste url"/>
+                <label for="plot">Plot:</label>
+                <input type="text" name="plot">
+                <input type="submit" value="Save" onclick="return validateSubmit()"/>
+                <input type="reset" value="Clear"/>
+        </form>
+
+    </div><!-- /content -->
+
+    <div class='footer-wrapper'>
+        <div data-role='footer' data-theme="c">
+            <p>Gonzalo Vazquez &copy</p>
+        </div>
+    </div>
+</div><!-- /page two -->
+</body>
+</html>

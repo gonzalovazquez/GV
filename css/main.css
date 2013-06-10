@@ -1,0 +1,31 @@
+/* Author: Gonzalo Vazquez
+    -------------------------------------------------- */
+/* Banner Typography */
+.carousel-caption h1{
+	  text-shadow: 1px 1px 10px black, 2px 3px 10px #222, -1px -1px 10px #333;
+	  color: #fff;
+      
+}
+
+/* Languages Buttons
+    -------------------------------------------------- */
+.img-circle{
+	cursor:pointer;
+	opacity: 1;
+}
+.img-circle:hover{
+	opacity: .8;
+}
+/* Project Images
+    -------------------------------------------------- */
+.featurette-image:hover{
+	opacity: .8;
+}
+/* Project Images
+    -------------------------------------------------- */
+footer {
+	margin-top: -50px;
+}
+
+/* Responsive Design */
+

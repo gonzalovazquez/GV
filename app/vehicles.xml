@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+	<vehicle>
+		<type>Tank</type>
+		<label>M1 Abrams</label>
+		<weapons>Main Canon + Coaxial LMG</weapons>
+		<speed>56</speed>
+		<pic>m1a2.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Tank</type>
+		<label>T90</label>
+		<weapons>Main Canon + Coaxial LMG</weapons>
+		<speed>50</speed>
+		<pic>t90.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>APC</type>
+		<label>LAV-25</label>
+		<weapons>25mm Chain Gun + Secondary Machine Gun + 2X Side-mounted Light Machine Guns</weapons>
+		<speed>70</speed>
+		<pic>lav-25.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>APC</type>
+		<label>BMP-2</label>
+		<weapons>30mm Chain Gun + Secondary Machine Gun + 2X Side-mounted Light Machine Guns</weapons>
+		<speed>60</speed>
+		<pic>bmp2.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>APC</type>
+		<label>Tunguska</label>
+		<weapons>Dual 30mm cannons</weapons>
+		<speed>50</speed>
+		<pic>tunguska.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>APC</type>
+		<label>LAV-AD</label>
+		<weapons>25mm Gatling Gun</weapons>
+		<speed>60</speed>
+		<pic>lav-ad.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>APC</type>
+		<label>BTR-90</label>
+		<weapons>30mm Cannon + Secondary Machine Gun + Side-Mounted Light Machine Guns</weapons>
+		<speed>60</speed>
+		<pic>btr90.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Helicopter</type>
+		<label>AH-1 SUPER COBRA</label>
+		<weapons>Rockets + Gatling Gun</weapons>
+		<speed>330</speed>
+		<pic>viper.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Helicopter</type>
+		<label>MI-28</label>
+		<weapons>Rockets + Gatling Gun</weapons>
+		<speed>320</speed>
+		<pic>mi28.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Helicopter</type>
+		<label>UH-1Y VENOM</label>
+		<weapons>2X side Mounted Machine Guns</weapons>
+		<speed>360</speed>
+		<pic>venom.PNG</pic>
+	</vehicle>
+	<vehicle>
+		<type>Helicopter</type>
+		<label>KA-60</label>
+		<weapons>2X side Mounted Machine Guns</weapons>
+		<speed>300</speed>
+		<pic>ka60.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Helicopter</type>
+		<label>AH-6J LITTLE BIRD</label>
+		<weapons>Rockets + Machine Guns</weapons>
+		<speed>280</speed>
+		<pic>ah6.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Helicopter</type>
+		<label>Z11</label>
+		<weapons>Rockets + Machine Guns</weapons>
+		<speed>274</speed>
+		<pic>z11.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Jet</type>
+		<label>SUPER HORNET</label>
+		<weapons>Front Mounted 20mm Gatling Gun</weapons>
+		<speed>1900</speed>
+		<pic>f18.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Jet</type>
+		<label>A10 THUNDERBOLT</label>
+		<weapons>Front Mounted 30mm Gatling Gun</weapons>
+		<speed>700</speed>
+		<pic>a10.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Jet</type>
+		<label>SU-35</label>
+		<weapons>Front Mounted 30mm Gatling Gun</weapons>
+		<speed>2400</speed>
+		<pic>su35.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Jet</type>
+		<label>SU-39</label>
+		<weapons>Front Mounted 30mm Canon</weapons>
+		<speed>950</speed>
+		<pic>su39.png</pic>
+	</vehicle>
+		<vehicle>
+		<type>Jet</type>
+		<label>F35</label>
+		<weapons>Front Mounted 20mm Gatling Gun</weapons>
+		<speed>2100</speed>
+		<pic>f35.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Transport Vehicle</type>
+		<label>Humvee</label>
+		<weapons>.50 Caliber Machine Gun</weapons>
+		<speed>70</speed>
+		<pic>humvee.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Transport Vehicle</type>
+		<label>Vodnik</label>
+		<weapons>.50 Caliber Machine Gun</weapons>
+		<speed>60</speed>
+		<pic>vodnik.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Transport Vehicle</type>
+		<label>Growler ITV</label>
+		<weapons>.50 Caliber Machine Gun</weapons>
+		<speed>75</speed>
+		<pic>growler.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Transport Vehicle</type>
+		<label>VDV BUGGY</label>
+		<weapons>.50 Caliber Machine Gun + One Light Machine Gun In Front</weapons>
+		<speed>75</speed>
+		<pic>vdv.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Transport Vehicle</type>
+		<label>DPV</label>
+		<weapons>.50 Caliber Machine Gun</weapons>
+		<speed>85</speed>
+		<pic>dpv.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Transport Vehicle</type>
+		<label>RHIB BOAT</label>
+		<weapons>Light Machine Gun In Front + Light Machine Gun In Back</weapons>
+		<speed>50</speed>
+		<pic>rhib.png</pic>
+	</vehicle>
+	<vehicle>
+		<type>Transport Vehicle</type>
+		<label>ASV</label>
+		<weapons> 40mm Grenade launcher + .50 Caliber Machine Gun</weapons>
+		<speed>40</speed>
+		<pic>aav.png</pic>
+	</vehicle>
+</vehicles>

@@ -1,0 +1,20 @@
+circle.node {
+  stroke: #fff;
+  stroke-width: .1px;
+  cursor: pointer;
+}
+
+line.link {
+  stroke: #999;
+  stroke-opacity: .7;
+}
+text {
+  font: 12px sans-serif;
+  pointer-events: none;
+}
+
+text.shadow {
+  stroke: #fff;
+  stroke-width: .2px;
+  stroke-opacity: .4;
+}

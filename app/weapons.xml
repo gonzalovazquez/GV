@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<weapons>
+      <weapon>
+           <weaponID>1</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>AK-74M</weaponTitle>
+		   <rof>650</rof>
+		   <speed>600</speed>
+		   <range>900</range>
+           <image>ak_74m.png</image>
+           <description>The starting weapon for Russian forces, it has a slower firing rate but slightly more powerful bullets than it's American counterpart, the M16A3. Easy to use with no glaring weaknesses, the AK-74M is effective at almost any range. However, the powerful rounds it fires makes long distance, semi automatic firefights slightly easier.</description>
+		   <link></link>
+      </weapon>
+	      <weapon>
+           <weaponID>2</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>M16A3</weaponTitle>
+		   <rof>800</rof>
+		   <speed>650</speed>
+		   <range>975</range>
+           <image>m16a3.png</image>
+           <description>The weapon of choice for US soldiers, with slightly less powerful rounds than it's Russian counterpart, the AK-74M, but makes up for it in a faster rate of fire. Easy to use with a quick reload, the faster firing rate makes short range engagements easier, even while hip firing. With clear and open iron sights, using burst fire methods at long range control the recoil of the gun, making shots hit where they need to.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>3</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>M416</weaponTitle>
+		   <rof>750</rof>
+		   <speed>600</speed>
+		   <range>900</range>
+           <image>m416.png</image>
+           <description>The M416 is an Assault Rifle made by the German weapon manufacturer Heckler and Koch in 2005. The M416 is used by the US and various other nations, excluding Russia. It fires the 5.56x45mm catridge. Like all Assault Rifles in BF3, it can reach out to long ranges. Its sights are similar to the M27 IAR.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>4</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>AEK-971</weaponTitle>
+		   <rof>900</rof>
+		   <speed>580</speed>
+		   <range>870</range>
+           <image>aek971.png</image>
+           <description>A versatile weapon, its strengths shine in its controllable recoil, open iron sights, and most importantly, a 3 round burst firing mode. This allows for effective and controlled shots, making quick work of any mid range foes. This mode is best used with a mid range scope, allowing the crosshairs stay on target after each shot. As with other 3 round burst weapons, timing the trigger pulls correctly will have the weapon fire full auto. Also, there are ten full trigger pulls of 3 rounds each, plus one extra round from a fully loaded gun. The weakness of the AEK comes from its painfully slow reload, especially from a dry reload. This can make fighting a long range target a pain, due to the long amount of time required to put in a new magazine</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>5</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>M16A4</weaponTitle>
+		   <rof>800</rof>
+		   <speed>680</speed>
+		   <range>975</range>
+           <image>m16a4.png</image>
+           <description>The M16A4 is the newest variant of the long used M16 rifle. It's currently the standard rifle used by the United States Marine Corps. Unlike the M16A3, the M16A4 has a three round burst fire mode. The M16A4 uses the small, but accurate, 5.56x45mm cartridge. Like all Assault Rifles in BF3, it can reach out to long ranges.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>6</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>F2000</weaponTitle>
+		   <rof>850</rof>
+		   <speed>600</speed>
+		   <range>900</range>
+           <image>fs2000.png</image>
+           <description>The F2000 is an Assault Rifle developed by the Belgium weapon manufacturer FN Herstal. The F2000 was first produced in 1995. It fires the 5.56x45mm NATO cartridge. Although the two factions in BF3 are the US and Russia, neither country uses this weapon in their branches of Military. Like all Assault Rifles in BF3, it can reach out to long ranges.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>7</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>AN-94</weaponTitle>
+		   <rof>600</rof>
+		   <speed>600</speed>
+		   <range>900</range>
+           <image>an_94.png</image>
+           <description>The AN-94's fast two round burst allows for an experienced soldier to quickly and effectively take out targets from medium to long range. Even more so with the 4x sights such as the PSO-1 or the ACOG. However it suffers from a low rate of fire and heavy recoil, therefore close quarter engagements are ill-advised. Note that the heavy barrel decrease the spread 100% instead of 50% like most other guns.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>8</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>G3A3</weaponTitle>
+		   <rof>550</rof>
+		   <speed>500</speed>
+		   <range>750</range>
+           <image>g3a3.png</image>
+           <description>The G3A3 is an Assault Rifle made by the German weapon manufacturer Heckler and Koch and Spanish weapon agency CETME. The original G3 was developed in the 1950s. This variant (A3) is the most known version of G3s. It uses the 7.62x51mm NATO cartridge. Although the two factions in BF3 are the US and Russia, neither country uses this weapon in their branches of Military. Like all Assault Rifles in BF3, it can reach out to long ranges, however, its slow rate of fire and high recoil make close quarters combaet is highly ill advised.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>9</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>KH2002</weaponTitle>
+		   <rof>800</rof>
+		   <speed>650</speed>
+		   <range>975</range>
+           <image>Kh2002.png</image>
+           <description>The KH2002 (Khaybar) is an Iranian designed assault rifle, derived from the DIO S 5.56 assault rifle and further developed by Iran's Defense Industries Organization (DIO). It was designed in 2001 with samples produced in 2003 with the eventual production of the KH2002 commencing in 2004. It uses the 5.56x45mm NATO cartridge. Like all Assault Rifles in BF3, it can reach out to long ranges.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>10</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>FAMAS</weaponTitle>
+		   <rof>1000</rof>
+		   <speed>630</speed>
+		   <range>945</range>
+           <image>famas.png</image>
+           <description>Its high rate of fire and controllable recoil coupled with foregrip or laser sight makes the FAMAS one of the most fearsome close-quarter Assault Rifle in the game (although its iron sights may be hard to use due to the large space they use on your screen and the extremely small sight picture they offer).</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>11</weaponID>
+           <weaponType>Assault Rifle</weaponType>
+           <weaponTitle>L85A2</weaponTitle>
+		   <rof>650</rof>
+		   <speed>600</speed>
+		   <range>900</range>
+           <image>L85a2.png</image>
+           <description>Part of the SA80 family, the L85 is the standard assault rifle of the British armed forces. It fires the 5.56x45mm NATO round.Its low firerate will help you compensate for the recoil, allowing you to be more accurate at longer ranges.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>12</weaponID>
+           <weaponType>Carbine</weaponType>
+           <weaponTitle>M4A1</weaponTitle>
+		   <rof>800</rof>
+		   <speed>580</speed>
+		   <range>870</range>
+           <image>m4a1.png</image>
+           <description>The M4A1 is a US Carbine, which is a shortened version of the M16A2 Rifle. It uses the 5.56x45mm cartridge. Like all carbines in BF3, it is effective at medium range.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>13</weaponID>
+           <weaponType>Carbine</weaponType>
+           <weaponTitle>AKS-74u</weaponTitle>
+		   <rof>650</rof>
+		   <speed>440</speed>
+		   <range>660</range>
+           <image>aks_74u.png</image>
+           <description>The standard carbine for Russian forces, it stands against it's American counterpart, the M4A1, with more powerful shots but a slower rate of fire. This makes it more suited for mid to long range battles, where shots in semi auto mode are easy to land.
+		   </description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>14</weaponID>
+           <weaponType>Carbine</weaponType>
+           <weaponTitle>SG553</weaponTitle>
+		   <rof>700</rof>
+		   <speed>430</speed>
+		   <range>645</range>
+           <image>sg553.png</image>
+           <description>The SG553 is a carbine version of the SG550 Assault Rifle, developed by the weapons manufacturer Swiss Arms AG (Formerly SIG). It fires the 5.56x45mm NATO cartridge. Like all carbines in BF3, it is effective at medium range.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>15</weaponID>
+           <weaponType>Carbine</weaponType>
+           <weaponTitle>M4</weaponTitle>
+		   <rof>800</rof>
+		   <speed>580</speed>
+		   <range>870</range>
+           <image>m4a1.png</image>
+           <description>The M4 is a US Carbine, which is a shortened version of the M16A2 Rifle. It uses the 5.56x45mm cartridge. Like all carbines in BF3, it is effective at medium range. This version is capable of burst fire instead of full auto.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>16</weaponID>
+           <weaponType>Carbine</weaponType>
+           <weaponTitle>A-91</weaponTitle>
+		   <rof>800</rof>
+		   <speed>420</speed>
+		   <range>630</range>
+           <image>a91.png</image>
+           <description>The A-91 is a Russian Assault Rifle. It fires the 7.62x39mm and the 5.56 Battlefield 3 calls it a Carbine. Like all carbines in BF3, it is effective at medium range.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>17</weaponID>
+           <weaponType>Carbine</weaponType>
+           <weaponTitle>G36C</weaponTitle>
+		   <rof>750</rof>
+		   <speed>500</speed>
+		   <range>750</range>
+           <image>g36c.png</image>
+           <description>The G36C is the compact version of the G36 Assault Rifle, which was produced in 1996 by German weapon manufacturer Heckler and Koch. It fires the 5.56x45mm NATO cartridge. The G36C is used by many countries including the United States. Like all carbines in BF3, it is effective at medium range.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>18</weaponID>
+           <weaponType>Carbine</weaponType>
+           <weaponTitle>SCAR-H</weaponTitle>
+		   <rof>600</rof>
+		   <speed>420</speed>
+		   <range>630</range>
+           <image>scar_h.png</image>
+           <description>The SCAR-H (in reality this model is the CQC version, complete with a shorter barrel than it's assault rifle model, and includes an adjustable stock) is a powerhouse of a carbine. Utilizing 7.62 NATO rounds designed for large and powerful battle rifles, this weapon packs a serious punch. However, because the rounds are much larger, a standard magazine can only hold 20 rounds of ammunition, in addition to the extreme recoil felt when firing full auto.</description>
+		   <link></link>
+      </weapon>
+	  	   <weapon>
+           <weaponID>19</weaponID>
+           <weaponType>Carbine</weaponType>
+           <weaponTitle>G53</weaponTitle>
+		   <rof>750</rof>
+		   <speed>450</speed>
+		   <range>675</range>
+           <image>g53.png</image>
+           <description>Compact assault rifle developed in Germany. Based on the famous G3 design. It fires the 5.56x45mm NATO round.
+		   </description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>20</weaponID>
+           <weaponType>Carbine</weaponType>
+           <weaponTitle>QBZ-95B</weaponTitle>
+		   <rof>650</rof>
+		   <speed>630</speed>
+		   <range>945</range>
+           <image>qbz.png</image>
+           <description>It's the Standard service rifle of the Chinese armed forces. The QBZ-95B fires the 5.8x42mm round.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>21</weaponID>
+           <weaponType>Hand Gun</weaponType>
+           <weaponTitle>.44 Magnum</weaponTitle>
+		   <rof>190</rof>
+		   <speed>460</speed>
+		   <range>690</range>
+           <image>44_magnum.png</image>
+           <description>The .44 Magnum is a US revolver which was designed in the 1950s. It was once known as "the most powerful handgun in the world."</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>22</weaponID>
+           <weaponType>Hand Gun</weaponType>
+           <weaponTitle>93r</weaponTitle>
+		   <rof>900</rof>
+		   <speed>375</speed>
+		   <range>563</range>
+           <image>93r.png</image>
+           <description>A modified version of the M9, the 93R can fire in three rounds bursts. The 93R comes equipped with a folding Foregrip to keep the weapon steady during each burst. It was designed by the Italian weapon manufacturer Beretta in the 1970s. The 93R uses the 9x19mm cartridge, effective at close range.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>23</weaponID>
+           <weaponType>Hand Gun</weaponType>
+           <weaponTitle>G17c</weaponTitle>
+		   <rof>460</rof>
+		   <speed>375</speed>
+		   <range>563</range>
+           <image>g17c.png</image>
+           <description>With high hip fire accuracy due to the built in laser sight and a large magazine, the G17C is a weapon perfect for close encounters. These factors offset the weak stopping power of the rounds, making it unsuitable for long range combat.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>24</weaponID>
+           <weaponType>Hand Gun</weaponType>
+           <weaponTitle>G18</weaponTitle>
+		   <rof>900</rof>
+		   <speed>375</speed>
+		   <range>563</range>
+           <image>g18.png</image>
+           <description>The G18 (Glock 18) is a full-automatic varient of the G17C. It is an Austrian made pistol which was first produced in 1982. It fires the 9x19mm cartridge, effective at close range.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>25</weaponID>
+           <weaponType>Hand Gun</weaponType>
+           <weaponTitle>M9</weaponTitle>
+		   <rof>460</rof>
+		   <speed>380</speed>
+		   <range>570</range>
+           <image>m9.png</image>
+           <description>The M9 is a Semi-Automatic Pistol developed by Italian weapon manufacturer Beretta in the 1980s. It became the standard pistol for the US in 1990. The M9 fires the 9x19mm cartridge, effective at close range.This handgun can only be used by the US faction.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>26</weaponID>
+           <weaponType>Hand Gun</weaponType>
+           <weaponTitle>MP 412 Rex</weaponTitle>
+		   <rof>220</rof>
+		   <speed>300</speed>
+		   <range>450</range>
+           <image>mp412_rex.png</image>
+           <description>The MP412 is a Russian revolver. The MP-412 is a compact .357 Magnum. Sacrificing the raw power of the .44 Magnum, .the REX boasts superior accuracy.With six rounds and a strong kick, each shot has to be timed and carefully aimed in order for long distance engagements to be sucessful. The strong power of the .357 magnum is offset by the gun's long reload time. However, headshots can be done with one shot to the head even a distances.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>27</weaponID>
+           <weaponType>Hand Gun</weaponType>
+           <weaponTitle>MP443</weaponTitle>
+		   <rof>460</rof>
+		   <speed>380</speed>
+		   <range>570</range>
+           <image>mp443.png</image>
+           <description>The MP443 (AKA Yarygin PYa, MP-443 Grach) is a Russian Semi-Automatic Pistol. It was designed in the 90s and first issued in 2003. The MP443 fires the 9x19mm cartridge, effective at close range.This handgun can only be used by the Russian faction.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>28</weaponID>
+           <weaponType>Machine Guns</weaponType>
+           <weaponTitle>M27 IAR</weaponTitle>
+		   <rof>750</rof>
+		   <speed>650</speed>
+		   <range>975</range>
+           <image>m27_iar.png</image>
+           <description>This weapon is from the same family of weapons as the M416, utilizing a longer barrel, heavier frame, and larger magazine, designed for prolonged periods of full auto fire. The 45 round clip is useful for putting down bursts of fire to suppress enemies as they advance. It also has a considerable amount of recoil, and shots tend to spray after firing fully auto.</description>
+		   <link></link>
+      </weapon>
+	  	  	  <weapon>
+           <weaponID>29</weaponID>
+           <weaponType>Machine Guns</weaponType>
+           <weaponTitle>M60E4</weaponTitle>
+		   <rof>580</rof>
+		   <speed>560</speed>
+		   <range>840</range>
+           <image>m60e4.png</image>
+           <description>The M60E4 (Mk43 MOD 0/1) is a US General Purpose Machine Gun. The original M60 was first used in the late 1950s and in the Vietnam war. The E4 variant was first developed in the 1990s. Like the original M60 It uses the 7.62x51mm cartridge.</description>
+		   <link></link>
+      </weapon> 
+	  	  	  <weapon>
+           <weaponID>30</weaponID>
+           <weaponType>Machine Guns</weaponType>
+           <weaponTitle>M240B</weaponTitle>
+		   <rof>650</rof>
+		   <speed>610</speed>
+		   <range>915</range>
+           <image>m240b.png</image>
+           <description>The M240B is a General Purpose Machine Gun. Developed by the Belgium weapon manufacturer FN MAG and used by the US military since the 1990s. It fires the heavier 7.62x51mm NATO cartridge.</description>
+		   <link></link>
+      </weapon> 
+	  	  	  <weapon>
+           <weaponID>31</weaponID>
+           <weaponType>Machine Guns</weaponType>
+           <weaponTitle>M249</weaponTitle>
+		   <rof>800</rof>
+		   <speed>620</speed>
+		   <range>930</range>
+           <image>m249.png</image>
+           <description>The M249's most fearsome feature is its high rate of fire, the highest of all the LMG's, and only suffers from vertical recoil. The bipod is the most advised second-attachment for this weapon to tame the recoil and put down accurate fire at long range.</description>
+		   <link></link>
+      </weapon> 
+	  	  	  <weapon>
+           <weaponID>32</weaponID>
+           <weaponType>Machine Guns</weaponType>
+           <weaponTitle>PKP Pechneg</weaponTitle>
+		   <rof>600</rof>
+		   <speed>560</speed>
+		   <range>840</range>
+           <image>pkp_pechneg.png</image>
+           <description>The PKP Pecheneg is the modernized version of the Russian PK Machine Gun, which was developed in the 1960s. It uses the 7.62x54mm R round.</description>
+		   <link></link>
+      </weapon> 
+	  	  	  <weapon>
+           <weaponID>33</weaponID>
+           <weaponType>Machine Guns</weaponType>
+           <weaponTitle>RPK 74m</weaponTitle>
+		   <rof>700</rof>
+		   <speed>600</speed>
+		   <range>900</range>
+           <image>rpk_74m.png</image>
+           <description>With a 45 round clip and strong firing power, this weapon is meant for longer range suppression than the M27 IAR. However, this gun still has a considerable amount of kick per shot, making the engagement of individual targets difficult outside of short to medium range.</description>
+		   <link></link>
+      </weapon> 
+	  	  	  <weapon>
+           <weaponID>34</weaponID>
+           <weaponType>Machine Guns</weaponType>
+           <weaponTitle>Type88 LMG</weaponTitle>
+		   <rof>650</rof>
+		   <speed>600</speed>
+		   <range>900</range>
+           <image>type88_lmg.png</image>
+           <description>The Type 88 is a Chinese General Purpose Machine Gun - known in China as the QJY-88. It fires the Chinese 5.8x42mm round, which is effective at medium ranges. This weapon is only available through the Physical Warfare Pack and Back to Karkand Expansion Pack.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>35</weaponID>
+           <weaponType>Personal Defense</weaponType>
+           <weaponTitle>AS VAL</weaponTitle>
+		   <rof>900</rof>
+		   <speed>300</speed>
+		   <range>450</range>
+           <image>as_val.png</image>
+           <description>The AS VAL (Special Automatic Rifle) is a Soviet Assault Rifle designed in the 1980s. It fires the armor piercing 9x39mm round through the standard Suppressor. The Suppressor CANNOT be removed.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>36</weaponID>
+           <weaponType>Personal Defense</weaponType>
+           <weaponTitle>MP7</weaponTitle>
+		   <rof>950</rof>
+		   <speed>390</speed>
+		   <range>585</range>
+           <image>mp7.png</image>
+           <description>The MP7A1 is a personal defense weapon developed by the German weapon manufacturer Heckler and Koch in 2001. The A1 variant was produced in 2003. It fires the 4.6x30mm cartridge, effective at close range</description>
+		   <link></link>
+      </weapon>  
+	  <weapon>
+           <weaponID>37</weaponID>
+           <weaponType>Personal Defense</weaponType>
+           <weaponTitle>P90</weaponTitle>
+		   <rof>900</rof>
+		   <speed>420</speed>
+		   <range>630</range>
+           <image>p90.png</image>
+           <description>The P90 is a Personal Defense Weapon developed by Belgian weapon manufacturer FN Herstel in 1990. It is used by many nations, including the United States. The P90 fires the 5.7x28mm armor piercing round, effective at close range.</description>
+		   <link></link>
+      </weapon>  
+	  <weapon>
+           <weaponID>38</weaponID>
+           <weaponType>Personal Defense</weaponType>
+           <weaponTitle>PDW-R</weaponTitle>
+		   <rof>750</rof>
+		   <speed>430</speed>
+		   <range>645</range>
+           <image>pdw_r.png</image>
+           <description>The PDW-R was developed as a Personal Defense Weapon for CQB, but it fires the 5.56x45mm cartridge, which is commonly found in the M16 and M4. It may not be as accurate as rifles, but it can still reach out further than other PDWs.</description>
+		   <link></link>
+      </weapon>  
+	  <weapon>
+           <weaponID>39</weaponID>
+           <weaponType>Personal Defense</weaponType>
+           <weaponTitle>PP-2000</weaponTitle>
+		   <rof>650</rof>
+		   <speed>360</speed>
+		   <range>540</range>
+           <image>pp_2000.png</image>
+           <description>The PP-2000 combines accurate hip fire and steady rate of fire for a weapon perfect for close range. The 20 round clip reduces effectiveness, forcing more reloads in between firefights.</description>
+		   <link></link>
+      </weapon>  
+	  <weapon>
+           <weaponID>40</weaponID>
+           <weaponType>Personal Defense</weaponType>
+           <weaponTitle>PP19</weaponTitle>
+		   <rof>900</rof>
+		   <speed>320</speed>
+		   <range>480</range>
+           <image>pp19.png</image>
+           <description>The PP-19 is a Submachinegun developed in Russia, featuring a helical high capacity magazine. It fires the 9x19mm Parabellum round.</description>
+		   <link></link>
+      </weapon>  
+	  <weapon>
+           <weaponID>41</weaponID>
+           <weaponType>Personal Defense</weaponType>
+           <weaponTitle>UMP-45</weaponTitle>
+		   <rof>600</rof>
+		   <speed>320</speed>
+		   <range>480</range>
+           <image>ump45.png</image>
+           <description>A submachine gun using the powerful .45 round, the UMP-45 is more versatile than other PDW weapons. With 3 modes of fire, including a 2 round burst, it is meant for medium range encounters where the low recoil can keep shots on target. It has a 25 round magazine, which can be quickly expended, making an already slow reload even longer.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>42</weaponID>
+           <weaponType>Sniper Rifle</weaponType>
+           <weaponTitle>M39 EMR</weaponTitle>
+		   <rof>260</rof>
+		   <speed>570</speed>
+		   <range>2850</range>
+           <image>m39_emr.png</image>
+           <description>The M39 EMR (Enhanced Marksman Rifle) is a modernized version of the M14 specifically for the United States Marine Corp. It was first used in 2008. The M39 uses match-grade 7.62x51mm NATO cartridges. Like all Sniper Rifles in Battlefield 3, it's effective at very long ranges.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>43</weaponID>
+           <weaponType>Sniper Rifle</weaponType>
+           <weaponTitle>M40A5</weaponTitle>
+		   <rof>1.1</rof>
+		   <speed>490</speed>
+		   <range>2450</range>
+           <image>m40A5.png</image>
+           <description>The M40A5 is a US Sniper Rifle. The original M40 was first used in 1966. The A5 variant is the current version, introduced in 2009. It fires the 7.62x51mm NATO cartridge. Like all Sniper Rifles in Battlefield 3, it's effective at very long ranges.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>45</weaponID>
+           <weaponType>Sniper Rifle</weaponType>
+           <weaponTitle>M98B</weaponTitle>
+		   <rof>1.3</rof>
+		   <speed>650</speed>
+		   <range>3250</range>
+           <image>m98b.png</image>
+           <description>A precision tactical rifle, the M98B was uniquely developed from the ground up as a Bolt-Action Sniper Rifle. Firing the .338 Magnum round from a detachable box magazine the M98B is capable of impressive accuracy and great stopping power even at extreme ranges. The M98B is currently being evaluated by US SOCOM in a modified form. The M98B comes equipped with a Rifle Scope (8x)</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>46</weaponID>
+           <weaponType>Sniper Rifle</weaponType>
+           <weaponTitle>MK11</weaponTitle>
+		   <rof>260</rof>
+		   <speed>550</speed>
+		   <range>2750</range>
+           <image>mk11.png</image>
+           <description>The first sniper rifle available to US forces. With a ten round clip and quick firing rate, it allows for fast follow up shots and easy long range suppression. However, the shots are not that powerful, and it requires 2-3 hits or more to take down a target, especially at extremely long ranges. The Mk11 is best suited at medium-long ranges, where landing another shot is not as difficult.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>47</weaponID>
+           <weaponType>Sniper Rifle</weaponType>
+           <weaponTitle>SKS</weaponTitle>
+		   <rof>375</rof>
+		   <speed>440</speed>
+		   <range>2200</range>
+           <image>sks.png</image>
+           <description>A battle rifle with a large 20 round clip. Unlike other sniper class weapons, this rifle is not as accurate at long ranges, and the shots each have moderate power. With the large clip and fast rate of fire, the SKS is best suited as a medium range weapon, where it can keep constant fire on the enemy. It may also be used as a recon class single-fire assault rifle to gain XP.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>48</weaponID>
+           <weaponType>Sniper Rifle</weaponType>
+           <weaponTitle>SV98</weaponTitle>
+		   <rof>1.7</rof>
+		   <speed>520</speed>
+		   <range>2600</range>
+           <image>sv98.png</image>
+           <description>A very powerful bolt action rifle, it is most effective at extreme long ranges, using a high power scope. Incredibly accurate, it allows for shots on target past a distance where bullet drop begins to become a factor. It is also capable of killing in one headshot, at any range. Because of it's long distance nature, it is easily outclassed when up against anything at closer ranges.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>49</weaponID>
+           <weaponType>Sniper Rifle</weaponType>
+           <weaponTitle>SVD</weaponTitle>
+		   <rof>260</rof>
+		   <speed>530</speed>
+		   <range>2650</range>
+           <image>svd.png</image>
+           <description>The first sniper rifle available to Russian forces. An easy to handle weapon, it's semi auto firing rate allows for rapid follow up shots. The gun loses some accuracy and power at longer ranges, meaning it is a rifle best suited at medium-long range engagements.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>50</weaponID>
+           <weaponType>Shotgun</weaponType>
+           <weaponTitle>870 MCS</weaponTitle>
+		   <rof></rof>
+		   <speed></speed>
+		   <range></range>
+           <image>870mcs.png</image>
+           <description>A powerful close range weapon, it has the strength to kill up close in one shot, two if further away. It is also versatile, utilizing a myriad of scope attachments and ammunition types, transforming this close range shotgun into a mid range weapon. However, the empty reload is very slow, having the user load a shell into the breech before loading them into the magazine, making it advisable to save the last shot unless necessary.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>51</weaponID>
+           <weaponType>Shotgun</weaponType>
+           <weaponTitle>DAO 12</weaponTitle>
+		   <rof></rof>
+		   <speed></speed>
+		   <range></range>
+           <image>dao12.png</image>
+           <description>The DAO-12 is a close range powerhouse, able to decimate enemies with it's large magazine size and quick firing rate. With a standard 8 round magazine, it allows for a wall of lead to fire out in front of the gun. But these 8 rounds can be expended quickly, forcing the player to reload, a slow process due to the fact that each shell can only be loaded into the gun one at a time.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>52</weaponID>
+           <weaponType>Shotgun</weaponType>
+           <weaponTitle>M1014</weaponTitle>
+		   <rof></rof>
+		   <speed></speed>
+		   <range></range>
+           <image>m1014.png</image>
+           <description>The M1014 (Benelli M4 Super 90) is an Italian Shotgun, designed in 1998. It is used by many nations, including the United States. All Shotguns in Battlefield 3 use the 12 Gauge 00 Buckshot cartridge by default, effective at close range.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>53</weaponID>
+           <weaponType>Shotgun</weaponType>
+           <weaponTitle>SAIGA 12K</weaponTitle>
+		   <rof></rof>
+		   <speed></speed>
+		   <range></range>
+           <image>saiga_12k.png</image>
+           <description>The SAIGA-12K is a Russian, magazine fed, 12G Shotgun. The original (Saiga-12) was designed in the 1990s. Since it uses a magazine, it reloads a lot faster than the M1014 or 870MCS. All Shotguns in Battlefield 3 use the 12 Gauge 00 Buckshot cartridge by default, effective at close range.</description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>54</weaponID>
+           <weaponType>Shotgun</weaponType>
+           <weaponTitle>USAS 12</weaponTitle>
+		   <rof></rof>
+		   <speed></speed>
+		   <range>300</range>
+           <image>usas12.png</image>
+           <description>The USAS-12 is a Shotgun made by South Korean weapon manufacturer Daewoo Precision Industries in the 1980s. Since it uses a magazine, it reloads a lot faster than the M1014 or 870MCS. All Shotguns in Battlefield 3 use the 12 Gauge 00 Buckshot cartridge by default, effective at close range.</description>
+		   <link></link>
+      </weapon>
+	  <weapon>
+           <weaponID>55</weaponID>
+           <weaponType>Rocket Launcher</weaponType>
+           <weaponTitle>FIM-92 Stinger</weaponTitle>
+		   <rof></rof>
+		   <speed></speed>
+		   <range></range>
+           <image>fim_92_stinger.png</image>
+           <description></description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>56</weaponID>
+           <weaponType>Rocket Launcher</weaponType>
+           <weaponTitle>RPG-7V2</weaponTitle>
+		   <rof></rof>
+		   <speed></speed>
+		   <range></range>
+           <image>rpg_72.png</image>
+           <description></description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>57</weaponID>
+           <weaponType>Rocket Launcher</weaponType>
+           <weaponTitle>SA-18 IGLA</weaponTitle>
+		   <rof></rof>
+		   <speed></speed>
+		   <range></range>
+           <image>sa_18_igla.png</image>
+           <description></description>
+		   <link></link>
+      </weapon>
+	  	  <weapon>
+           <weaponID>58</weaponID>
+           <weaponType>Rocket Launcher</weaponType>
+           <weaponTitle>SMAW</weaponTitle>
+		   <rof></rof>
+		   <speed></speed>
+		   <range></range>
+           <image>smaw.png</image>
+           <description></description>
+		   <link></link>
+      </weapon>                            
+</weapons>
