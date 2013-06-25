@@ -1,0 +1,35 @@
+div#pop-up {
+	display: none;
+	position:fixed;	
+	width:200px;
+	height: auto;
+	font-size: 14px;
+	background-color: #000;
+	opacity: 0.85;
+	padding: 5px 10px 5px 10px;
+	-moz-border-radius: 5px 5px;
+	border-radius: 5px 5px;
+}
+div#pop-up-title {
+	color: white;
+	padding-top: -20px;
+	font-size: 15px;
+	width:200px;
+	font-weight: bolder;
+}
+div#pop-up-content {
+	font-size: 12px;
+}
+div#pop-desc {
+	color:#fff;
+	font-size: 14px;
+	width: 100px;
+}
+div#pop-img {
+	font-size: 30px;
+	font-weight: bolder;
+}
+.type{
+	color:#fff;
+	font-size: 12px;
+}
