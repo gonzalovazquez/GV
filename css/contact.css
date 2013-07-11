@@ -45,10 +45,6 @@ textarea{
 	font-size:12px;
 }
 
-td > button{
-	text-indent:8px;
-}
-
 .error{
 	background-color:#AB0000;
 	color:white;
