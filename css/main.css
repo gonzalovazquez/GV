@@ -2,11 +2,28 @@
     -------------------------------------------------- */
 /* Banner Typography */
 .carousel-caption h1{
-	  text-shadow: 1px 1px 10px black, 2px 3px 10px #222, -1px -1px 10px #333;
+	  /*text-shadow: 1px 1px 10px black, 2px 3px 10px #222, -1px -1px 10px #333;*/
 	  color: #fff;
-      
+
 }
 
+
+/* Banners */
+.welcome{
+	background-color: rgb(58, 36, 75);
+}
+.hello{
+	font-size: 108px;
+}
+.projects{
+	background-color: rgb(151, 66, 26);
+}
+.aboutMe{
+	background-color: rgb(101, 156, 42);
+}
+.contactMe{
+	
+}
 /* Languages Buttons
     -------------------------------------------------- */
 .img-circle{
@@ -27,5 +44,5 @@ footer {
 	margin-top: -50px;
 }
 
-/* Responsive Design */
+
 

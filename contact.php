@@ -40,10 +40,11 @@ if($_SESSION['sent'])
     <link rel="stylesheet" type="text/css" href="./css/contact.css" />
 
     <!--Le JS -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="jqtransformplugin/jquery.jqtransform.js"></script>
     <script type="text/javascript" src="formValidator/jquery.validationEngine.js"></script>
-    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
+  
 
     <style>
 
@@ -104,7 +105,7 @@ if($_SESSION['sent'])
 
 
 
-    /* CUSTOMIZE THE CAROUSEL
+   /* CUSTOMIZE THE CAROUSEL
     -------------------------------------------------- */
 
     /* Carousel base class */
@@ -127,7 +128,7 @@ if($_SESSION['sent'])
       z-index: 10;
     }
 
-    .carousel .item {
+    .carousel .item{
       height: 500px;
     }
     .carousel img {
@@ -206,20 +207,14 @@ if($_SESSION['sent'])
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */
-
     /* Smartphones (portrait and landscape) ----------- */
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    #form-container{
-            width: 280px;
-            margin-left: 40px;
-          }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .carousel-caption h1 {
+          font-size: 25px;
+        }
       }
+    
 
-    @media (min-width:950px){
-      #form-container{
-        margin-top: -100px;
-      }
-    }
     @media (max-width: 979px) {
 
       .container.navbar-wrapper {
@@ -250,9 +245,22 @@ if($_SESSION['sent'])
         max-width: 40%;
         margin: 0 auto 20px;
       }
-      #form-container{
-        margin-top: 0px;
+
+    button.btn.btn-navbar{
+        margin-top: 28px;
       }
+
+      .brand p {
+        margin:0px;
+      }
+
+      .brand p {
+        margin-top: 16px;
+        margin-left: 15px;
+      }
+    #main-container{
+      margin-top: 0px;
+       }
     }
 
 
@@ -281,7 +289,8 @@ if($_SESSION['sent'])
         margin-top: 100px;
       }
       .carousel-caption h1 {
-        font-size: 20px;
+        font-size: 85px;
+        margin-left: -40px;
       }
       .carousel-caption .lead,
       .carousel-caption .btn {
@@ -308,21 +317,10 @@ if($_SESSION['sent'])
         font-size: 12px;
       }
 
-    }
-    /* CUSTOMIZE THE Languages button
-    -------------------------------------------------- */
-    .span4{
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }
-    div #popup p {
-      position: absolute;
-      font-size: 18px;
-      left:50px;
-      margin-top:-80px;
-      color:#006dcc;
-      -webkit-text-stroke-width: .3px;
-      -webkit-text-stroke-color: #ccc;
+      .brand p {
+        margin-top: 16px;
+        margin-left: 15px;
+      }
     }
 
     </style>
@@ -346,69 +344,42 @@ if($_SESSION['sent'])
 
 
 
-    <!-- NAVBAR
+<!-- Navbar
     ================================================== -->
-    <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
-
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="index.html">Gonzalo Vazquez</a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html"><p>Gonzalo Vazquez</p></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="http://gonzalovazquez.github.io/">Blog</a></li>
-                <li><a href="contact.php">Contact</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
+                <li class="active"><a href="contact.php">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-
-     <!-- Carousel
+    <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
+      <div class="carousel-inner aboutMe">
         <div class="item active">
-          <img src="./img/banner/slide-01.png" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Art in the blood is liable to take the strangest forms.<br>&minus;Sherlock Holmes</h1>
+              <h1 class="hello">Dear...</h1>
             </div><!--/carousel-caption-->
           </div><!-- container-->
         </div><!--/item active-->
-        <div class="item">
-          <img src="./img/banner/slide-03.png" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>You live your life between your ears.<br>&minus;Bebe Moore Campbell</h1>
-           </div><!--/carousel-caption-->
-          </div><!-- container-->
-        </div><!--/item-->
-        <div class="item">
-          <img src="./img/banner/slide-02.png" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Technical skill is mastery of complexity. Creativity is mastery of simplicity.<br>&minus;E.C. Zeeman</h1>
-            </div><!--/carousel-caption-->
-          </div><!-- container-->
-        </div><!--/item-->
       </div><!--/carousel-inner-->
-      <a class="left carousel-control" href="http://twitter.github.com/bootstrap/examples/carousel.html#myCarousel" data-slide="prev">‹</a>
-      <a class="right carousel-control" href="http://twitter.github.com/bootstrap/examples/carousel.html#myCarousel" data-slide="next">›</a>
     </div><!-- /.carousel -->
 
 
@@ -418,12 +389,9 @@ if($_SESSION['sent'])
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
- 
-
-      <h1 class="featurette-heading" style="text-align:center">Contact Me!</h1>
       <div class="featurette">
         <div id="main-container">
-  <div id="form-container">    
+          <div id="form-container">    
           <p class="lead"> 
             If you want to share an idea with me—or a cup of coffee—or just
             talk about code, contact me! I would love to chat and get to know
@@ -504,7 +472,6 @@ if($_SESSION['sent'])
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/main.js"></script>
     <script src="./js/libs/jquery.js"></script>
     <script src="./js/libs/transition.js"></script>
     <script src="./js/libs/alert.js"></script>
@@ -518,14 +485,6 @@ if($_SESSION['sent'])
     <script src="./js/libs/collapse.js"></script>
     <script src="./js/libs/carousel.js"></script>
     <script src="./js/libs/typeahead.js"></script>
-    <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
-    </script>
     <script src="./js/libs/holder.js"></script>
   </body>
 </html>

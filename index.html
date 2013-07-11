@@ -93,7 +93,7 @@
       z-index: 10;
     }
 
-    .carousel .item {
+    .carousel .item{
       height: 500px;
     }
     .carousel img {
@@ -210,6 +210,15 @@
         max-width: 40%;
         margin: 0 auto 20px;
       }
+
+      button.btn.btn-navbar{
+        margin-top: 28px;
+      }
+
+      .brand p {
+        margin:0px;
+      }
+
     }
 
 
@@ -238,7 +247,9 @@
         margin-top: 100px;
       }
       .carousel-caption h1 {
-        font-size: 20px;
+        font-size: 100px;
+        margin-left: -40px;
+        margin-top: -30px;
       }
       .carousel-caption .lead,
       .carousel-caption .btn {
@@ -265,7 +276,19 @@
         font-size: 12px;
       }
 
-    }
+      .brand p {
+        margin-top: 16px;
+        margin-left: 15px;
+      }
+  }
+@media (max-width: 979px){
+    .brand p {
+        margin-top: 16px;
+        margin-left: 15px;
+      }
+}
+    
+
 /* Smartphones (portrait and landscape) ----------- 
 @media only screen 
 and (min-device-width : 320px) 
@@ -366,70 +389,42 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
   <body>
 
-
-    <!-- NAVBAR
+     <!-- Navbar
     ================================================== -->
-    <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
-
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="index.html">Gonzalo Vazquez</a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html"><p>Gonzalo Vazquez</p></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="http://gonzalovazquez.github.io/">Blog</a></li>
                 <li><a href="contact.php">Contact</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
-
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
+      <div class="carousel-inner welcome">
         <div class="item active">
-          <img src="./img/banner/slide-01.png" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Art in the blood is liable to take the strangest forms.<br>&minus;Sherlock Holmes</h1>
+              <h1 class="hello">Hello.</h1>
             </div><!--/carousel-caption-->
           </div><!-- container-->
         </div><!--/item active-->
-        <div class="item">
-          <img src="./img/banner/slide-03.png" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>You live your life between your ears.<br>&minus;Bebe Moore Campbell</h1>
-           </div><!--/carousel-caption-->
-          </div><!-- container-->
-        </div><!--/item-->
-        <div class="item">
-          <img src="./img/banner/slide-02.png" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Technical skill is mastery of complexity. Creativity is mastery of simplicity.<br>&minus;E.C. Zeeman</h1>
-            </div><!--/carousel-caption-->
-          </div><!-- container-->
-        </div><!--/item-->
       </div><!--/carousel-inner-->
-      <a class="left carousel-control" href="http://twitter.github.com/bootstrap/examples/carousel.html#myCarousel" data-slide="prev">‹</a>
-      <a class="right carousel-control" href="http://twitter.github.com/bootstrap/examples/carousel.html#myCarousel" data-slide="next">›</a>
     </div><!-- /.carousel -->
 
 
