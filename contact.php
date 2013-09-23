@@ -16,7 +16,7 @@ if($_SESSION['errStr'])
 $success='';
 if($_SESSION['sent'])
 {
-  $success='<h1>Thank you!</h1>';
+  $success='<h2>Message Sent!</h2><script>alert("Message Sent, Thank you!")</script>';
   
   $css='<style type="text/css">#contact-form{display:none;}</style>';
   
@@ -33,16 +33,24 @@ if($_SESSION['sent'])
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/lib/bootstrap.min.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="jqtransformplugin/jqtransform.css" />
-    <link rel="stylesheet" type="text/css" href="formValidator/validationEngine.jquery.css" />
+    <link rel="stylesheet" type="text/css" href="./css/lib/jqtransform.css" />
+    <link rel="stylesheet" type="text/css" href="./css/lib/validationEngine.jquery.css" />
     <link rel="stylesheet" type="text/css" href="./css/contact.css" />
+
+    <style>
+    .social li {
+      float: right;
+      display: inline;
+      padding: 0px 5px 0px 5px ;
+    }
+    </style>
 
     <!--Le JS -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="jqtransformplugin/jquery.jqtransform.js"></script>
-    <script type="text/javascript" src="formValidator/jquery.validationEngine.js"></script>
+    <script type="text/javascript" src="./js/libs/jquery.jqtransform.js"></script>
+    <script type="text/javascript" src="./js/libs/jquery.validationEngine.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>
   
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -77,8 +85,9 @@ if($_SESSION['sent'])
           <a class="brand" href="index.html"><p>Gonzalo Vazquez</p></a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-                <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
+                <li><a href="passion.html">Passion</a></li>
+                <li><a href="skills.html">Skills</a></li>
                 <li><a href="http://gonzalovazquez.github.io/">Blog</a></li>
                 <li class="active"><a href="contact.php">Contact</a></li>
             </ul>
@@ -91,7 +100,7 @@ if($_SESSION['sent'])
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner aboutMe">
+      <div class="carousel-inner contactMe">
         <div class="item active">
           <div class="container">
             <div class="carousel-caption dearTitle">
@@ -111,7 +120,8 @@ if($_SESSION['sent'])
     <div class="container marketing">
       <div class="featurette">
         <div id="main-container">
-          <div id="form-container">    
+          <div id="form-container"> 
+          <?=$success?>   
           <p class="lead"> 
             If you want to share an idea with me—or a cup of coffee—or just
             talk about code, contact me! I would love to chat and get to know
@@ -157,7 +167,7 @@ if($_SESSION['sent'])
         </tr>
         </table>
         </form>
-        <?=$success?>
+        
       </div>
   </div>
 
@@ -170,6 +180,14 @@ if($_SESSION['sent'])
 
       <!-- FOOTER -->
       <footer>
+        <ul class="social" style="list-style-type: none;">
+          <li><i class="icon-comment"></i><a href="http://twitter.com/gonzalovazzquez" target="_blank"> Twitter</a></li>
+          <li><i class="icon-briefcase"></i><a href="http://www.linkedin.com/in/gonzalovazzquez" target="_blank"> LinkedIn</a></li>
+          <li><i class="icon-hdd"></i><a href="https://github.com/gonzalovazquez" target="_blank"> GitHub</a></li>
+          <li><i class="icon-envelope"></i><a href="mailto:gonzalo.segura1@gmail.com?subject=Hi%20There!" target="_blank" id="mail" class="icons" title="[GMCP] Compose a new mail to " onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to=gonzalo.segura1@gmail.com&amp;su=Hi%20There!','Compose new message','width=640,height=480');return false" rel="noreferrer"> Mail</a></li>
+          <li><i class="icon-facetime-video"></i><a href="http://vimeo.com/gonza" target="_blank"> Vimeo</a></li>
+          <li><i class="icon-globe"></i><a href="http://coderbits.com/gonzalovazquez" target="_blank"> CoderBits</a></li>
+      </ul>
         <p style="margin-top: -50px">© 2013 Gonzalo Vazquez</p>
       </footer>
 

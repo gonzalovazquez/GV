@@ -8,8 +8,12 @@
     <meta name="author" content="Gonzalo Vazquez">
 
     <!-- Le styles -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/lib/bootstrap.min.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
+
+    <!-- Smooth Scrolling -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/smooth.js"></script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -25,14 +29,12 @@
     <link rel="icon" href="./img/ico/favicon.ico" type="image/x-icon">
   <style type="text/css"></style><style id="holderjs-style" type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
 </head>
-
-  <body>
-
-
-
+ 
+<body>
+      
  <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" id="mainNav">
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -43,8 +45,9 @@
           <a class="brand" href="index.html"><p>Gonzalo Vazquez</p></a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-                <li><a href="about.html">About</a></li>
                 <li class="active"><a href="projects.html">Projects</a></li>
+                <li><a href="passion.html">Passion</a></li>
+                <li><a href="skills.html">Skills</a></li>
                 <li><a href="http://gonzalovazquez.github.io/">Blog</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
@@ -69,15 +72,16 @@
     </div><!-- /.carousel -->
 
 
-      <!-- START THE FEATURETTES -->
-
+      <!-- START Projects -->
+    <div class="container marketing">
+     
       <!-- Project: Dabbble -->
-      <div class="container marketing">
+      
         <div class="featurette">
           <a href="./projects/dabbble/index.html"><img class="featurette-image pull-left" src="./img/projects/dabbble.png" alt="Treebook"></a>
           <h2 class="featurette-heading">Dabbble.<span class="muted"> Gorgeous.</span></h2>
-          <p class="lead">Dabbble is my first project using <a href="http://angularjs.org/">
-            Angular.JS </a> and the Dribbble Api. With this web-app you can view Popular, Debuts and Upcoming designs from Dribbble itself. Go ahead, get some inspiration for your next design. I would like to thank <a href="http://teamtreehouse.com/">Team Treehouse</a> for the great tutorials. </p>
+          <p class="lead">Dabbble is my first project using <a href="http://angularjs.org/" target="_blank">
+            AngularJS</a> and the Dribbble Api. With this web-app you can view Popular, Debuts and Upcoming designs from Dribbble itself. Go ahead, get some inspiration for your next design.</p>
           <img src="./img/mini-logos/javascript-logo.png" alt="JS">
         </div> 
 
@@ -89,7 +93,7 @@
         <h2 class="featurette-heading">Treebook.<span class="muted"> You tweet, I tweet.</span></h2>
         <p class="lead">In this project, using Ruby on Rails, I made a social web app with
         Twitter-like features, including profile creation, messaging/tweeting, and Gravatar integration.Check it out by signing up and leaving me a message! You can see the source code
-        <a href="https://github.com/gonzalovazquez/treebook"> here</a>. I would like to thank <a href="http://teamtreehouse.com/">Team Treehouse </a>for the great tutorials.</p>
+        <a href="https://github.com/gonzalovazquez/treebook" target="_blank"> here</a>.</p>
         
         <img src="./img/mini-logos/rubyonrails-logo.png" alt="ROR">
         <img src="./img/mini-logos/javascript-logo.png" alt="JS">
@@ -139,7 +143,7 @@
         <a href="./projects/crystalBall/index.html"><img class="featurette-image pull-right" src="./img/projects/jellybean.png" alt="Cystal Ball"></a>
         <h2 class="featurette-heading">Crystal Ball.<span class="muted"> Happiness?</span></h2>
         <p class="lead">My latest project is an Android app written in Java that is able to
-        predict the future. You can check out the source code<a href="https://github.com/gonzalovazquez/crystalBall"> here</a>.</p>
+        predict the future. You can check out the source code<a href="https://github.com/gonzalovazquez/crystalBall" target="_blank"> here</a>.</p>
         <img src="./img/mini-logos/java-logo.png" alt="ActionScript">
       </div>
 
@@ -150,7 +154,7 @@
         <a href="./projects/filmy/index.html"><img class="featurette-image pull-left" src="./img/projects/filmy.png" alt="Filmy"></a>
         <h2 class="featurette-heading">Filmy.<span class="muted"> You had me at hello</span></h2>
         <p class="lead">Simple-to-use web app for storing and searching through your film
-        library. You can take a peek at the source code<a href="https://github.com/gonzalovazquez/filmy"> here</a>.</p>
+        library. You can take a peek at the source code<a href="https://github.com/gonzalovazquez/filmy" target="_blank"> here</a>.</p>
         <img src="./img/mini-logos/php-logo.png" alt="ActionScript">
       </div>
 
@@ -161,7 +165,7 @@
         <a href="projects/timeline/index.html"><img class="featurette-image pull-right" src="./img/projects/d3js.jpg" alt="BitCoin"></a>
         <h2 class="featurette-heading">Timeline.<span class="muted"> Our history</span></h2>
         <p class="lead">In this project, I took the challenge of building a linear timeline using the 
-          <a href="http://d3js.org/">d3.js framework</a>. All the data comes from a huge json file and it's transformed accordingly.</p>
+          <a href="http://d3js.org/" target="_blank">d3.js </a>framework. All the data comes from a huge json file and it's transformed accordingly.</p>
         <img src="./img/mini-logos/javascript-logo.png" alt="JavaScript">
       </div>
 
@@ -176,15 +180,16 @@
         bitcoin economy.</p>
         <img src="./img/mini-logos/html5-logo.png" alt="ActionScript">
       </div>
-
+      
       <hr class="featurette-divider">
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="projects.html#">Back to top</a></p>
-        <p>© 2013 Gonzalo Vazquez</p>
+        <p><small>I would like to thank <a href="http://teamtreehouse.com/" target="_blank">Team Treehouse</a> for the great tutorials. </small></p>
+        <p class="pull-right"><a href="#mainNav">Back to top</a></p>
+        <br><p>&copy; 2013 Gonzalo Vazquez</p>
       </footer>
 
     </div><!-- /.container -->

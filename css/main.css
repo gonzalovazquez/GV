@@ -22,7 +22,10 @@
 	background-color: rgb(101, 156, 42);
 }
 .contactMe{
-	
+	background-color: rgb(42, 88, 156);
+}
+.passion{
+  background-color: rgb(60, 201, 156);
 }
 /* Languages Buttons
     -------------------------------------------------- */
@@ -324,8 +327,8 @@ footer {
         margin-top: 16px;
         margin-left: 15px;
       }
-      #form-container p {
-        margin-top: 100px;
+      #form-container{
+        margin-top: 90px;
         margin-right: 100px;
       }
       .navbar .navbar-inner {
@@ -340,6 +343,10 @@ footer {
       }
     .navbar .navbar-inner {
         background-color: #000;
+      }
+
+    #form-container{
+      margin-top: 90px;
       }
 }
     

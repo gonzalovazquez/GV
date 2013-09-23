@@ -44,10 +44,25 @@ Mousetrap.bind(['u u'], function(e) {
 	title.style.textAlign = "center";
 
 
+	// We append the image to the body.
 	document.body.appendChild(matrix);
 
+	// Append the title the current class row
 	document.querySelector(".row").appendChild(title);
-    
+   
+
+   //Trip to Punta Cana - Code on the plane 
+
+   
+   
+   function ror(){
+   for(var i=0; i<=100; i++){
+   		console.log("Function ror" + i);
+   		return i;
+   }
+	}
+   console.log(ror());
+
    
    /* Not used Code */
    /*

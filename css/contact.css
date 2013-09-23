@@ -12,7 +12,6 @@
 #form-container{
 	background-color:#f5f5f5;
 	padding:15px;
-	
 	-moz-border-radius:12px;
 	-khtml-border-radius: 12px;
 	-webkit-border-radius: 12px;
@@ -24,13 +23,14 @@ td{
 }
 
 a, a:visited {
-	color:#00BBFF;
+	color:rgb(42, 88, 156);
 	text-decoration:none;
 	outline:none;
 }
 
 a:hover{
-	text-decoration:underline;
+	color: rgb(7, 8, 9);
+	text-decoration: none;
 }
 
 label{
